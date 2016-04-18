@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _tables_h
+#define _tables_h
 class Tables
 {
 public:
@@ -6,3 +7,4 @@ public:
 	~Tables(void);
 };
 
+#endif
