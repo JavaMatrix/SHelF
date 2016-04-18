@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 int Lib_Major = 0;
 int Lib_Minor = 0;
 int Lib_Patch = 0;
