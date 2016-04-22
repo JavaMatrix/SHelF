@@ -15,6 +15,10 @@
 #include <string>
 
 namespace shelf {
+	namespace lib {
+		std::string get_version();
+	}
+	void ping();
 	std::string to_string(int);
 	std::string to_string(double);
 	std::string to_string(unsigned int);
