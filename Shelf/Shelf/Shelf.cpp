@@ -18,17 +18,16 @@ namespace shelf {
 		//SHelF uses a Semantic versioning system as specified here: http://semver.org/spec/v2.0.0.html
 		int major = 1;
 		int minor = 0;
-		int patch = 0;
-		char change = 'b'; //for changes that are extremely small
+		int patch = 1;
 		string get_version()
 		{
-			return to_string(major) + '.' + to_string(minor) + '.' + to_string(patch) + change;
+			return to_string(major) + '.' + to_string(minor) + '.' + to_string(patch);
 		}
 	}
 
 	void ping(void) {
 		cout << "SHelF Library Version: " + lib::get_version() << endl;
-		cout << "SHelF on GitHub: http://github.com/javamatrix/SHelF" << endl;
+		cout << "SHelF on GitHub: http://github.com/javamatrix/SHelF" << endl<<endl;
 	}
 
 	string to_string(int num) {
