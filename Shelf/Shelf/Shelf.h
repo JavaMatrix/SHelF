@@ -8,6 +8,8 @@
 
 #pragma once
 
+#define SHELF
+
 #include "ConsoleIO.h"
 #include "Table.h"
 #include <string>
