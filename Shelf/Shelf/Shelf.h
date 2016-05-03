@@ -17,7 +17,7 @@
 namespace shelf {
 	namespace lib {
 		std::string get_version();
-		void Steve();
+		void steve();
 	}
 	void ping();
 	std::string to_string(int);
