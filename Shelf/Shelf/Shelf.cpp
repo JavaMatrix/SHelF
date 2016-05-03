@@ -24,7 +24,7 @@ namespace shelf {
 			return to_string(major) + '.' + to_string(minor) + '.' + to_string(patch);
 		}
 		void steve() {
-			cout << "Steven, I didn't know you were in this library!" << endl;
+			WriteLine("Steven, I didn't know you were in this library!");
 		}
 	}
 
