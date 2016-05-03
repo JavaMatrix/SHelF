@@ -23,6 +23,9 @@ namespace shelf {
 		{
 			return to_string(major) + '.' + to_string(minor) + '.' + to_string(patch);
 		}
+		void steve() {
+			ConsoleIO::WriteLine("Steven, I don't know you were in this library!");
+		}
 	}
 
 	void ping(void) {
